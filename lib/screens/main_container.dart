@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rolling_dice_app/components/dice_container.dart';
 
 class AppContainer extends StatelessWidget {
   const AppContainer({super.key, required this.gradientColors});
@@ -15,6 +16,7 @@ class AppContainer extends StatelessWidget {
           begin: Alignment.bottomRight,
         ),
       ),
+      child: DiceContainer(),
     ));
   }
 }
