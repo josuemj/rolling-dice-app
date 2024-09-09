@@ -9,7 +9,11 @@ class AppContainer extends StatelessWidget {
   Widget build(context) {
     return (Container(
       decoration: BoxDecoration(
-        gradient: LinearGradient(colors: gradientColors),
+        gradient: LinearGradient(
+          colors: gradientColors,
+          end: Alignment.topLeft,
+          begin: Alignment.bottomRight,
+        ),
       ),
     ));
   }
