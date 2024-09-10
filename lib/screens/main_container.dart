@@ -16,7 +16,7 @@ class AppContainer extends StatelessWidget {
           begin: Alignment.bottomRight,
         ),
       ),
-      child: DiceContainer(),
+      child: const DiceContainerState(),
     ));
   }
 }
