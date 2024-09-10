@@ -1,2 +1,2 @@
 # rolling_dice_app
-[Watch app demo :)](assets/demo/roll-dice-demo.gif)
+![Watch app demo :)](assets/demo/roll-dice-demo.gif)
